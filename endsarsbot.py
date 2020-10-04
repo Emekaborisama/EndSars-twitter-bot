@@ -17,3 +17,11 @@ except:
     
 
 
+import comment as c
+import like_retweet as lrt
+import mention sd m
+
+if __name__ == '__main__':
+    c.comment_()
+    lrt.like_rt()
+    m.tweet_mention()
