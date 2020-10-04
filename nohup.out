@@ -1,0 +1,58 @@
+Authentication OK
+Authentication OK
+Authentication OK
+Authentication OK
+Muhammadu Buhari said Today on behalf of Nigeria I signed the Instrument of Ratification of the Doha Amendment of the Kyoto Protocol to t… https://t.co/zxNZZCET0C with 1312136098395553793
+Tweet by: @tomiwasocial
+[{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+Traceback (most recent call last):
+  File "endsarsbot.py", line 35, in <module>
+    main()
+  File "endsarsbot.py", line 27, in main
+    lrt.like_rt()
+  File "/Users/emekaborisama/Downloads/New_data_file/tweepy-bots/endsarzz/like_retweet.py", line 33, in like_rt
+    return success
+UnboundLocalError: local variable 'success' referenced before assignment
+Authentication OK
+Authentication OK
+Authentication OK
+Authentication OK
+Muhammadu Buhari said Today on behalf of Nigeria I signed the Instrument of Ratification of the Doha Amendment of the Kyoto Protocol to t… https://t.co/zxNZZCET0C with 1312136098395553793
+Tweet by: @tomiwasocial
+retweeted
+Followed the user
+Muhammadu Buhari said Today on behalf of Nigeria I signed the Instrument of Ratification of the Doha Amendment of the Kyoto Protocol to t… https://t.co/zxNZZCET0C with 1312136098395553793
+Tweet by: @adetayo_first
+retweeted
+Followed the user
+Muhammadu Buhari said Today on behalf of Nigeria I signed the Instrument of Ratification of the Doha Amendment of the Kyoto Protocol to t… https://t.co/zxNZZCET0C with 1312136098395553793
+Tweet by: @adetayo_first
+[{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+Traceback (most recent call last):
+  File "endsarsbot.py", line 35, in <module>
+    main()
+  File "endsarsbot.py", line 27, in main
+    lrt.like_rt()
+  File "/Users/emekaborisama/Downloads/New_data_file/tweepy-bots/endsarzz/like_retweet.py", line 33, in like_rt
+    return success
+UnboundLocalError: local variable 'success' referenced before assignment
+Authentication OK
+Authentication OK
+Authentication OK
+Authentication OK
+Data Knight 🎠☯ GPT-3 said #EndSars with 1312783411791179778
+Tweet by: @MssPeaceNN
+retweeted
+Followed the user
+Data Knight 🎠☯ GPT-3 said #EndSars with 1312783411791179778
+Tweet by: @kulu_herself
+retweeted
+Followed the user
+We pass
+Traceback (most recent call last):
+  File "endsarsbot.py", line 35, in <module>
+    main()
+  File "endsarsbot.py", line 28, in main
+    m.tweet_mention()
+  File "/Users/emekaborisama/Downloads/New_data_file/tweepy-bots/endsarzz/mention.py", line 31, in tweet_mention
+UnboundLocalError: local variable 'success' referenced before assignment
