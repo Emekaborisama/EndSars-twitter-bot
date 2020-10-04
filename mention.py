@@ -20,9 +20,11 @@ except:
 def tweet_mention():
     tweets= api.mentions_timeline(tweet_mode = 'extended')
     try:
-        for tweet in reversed(tweets):
-            api.update_status("@" + tweet.user.screen_name  + ' #EndSars Now!', tweet.id)
+        for tweet in tweets:
+            api.update_status('#EndSars Now!', in_reply_to_status_id = tweet.id, auto_populate_reply_metadata = True)
             print('replied the mentioned')
+        #success = True
     except:
         print('We pass')
         pass
+    #return success
