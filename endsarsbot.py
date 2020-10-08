@@ -22,7 +22,8 @@ import like_retweet as lrt
 import mention as m
 
 def main():
-    usersname = '@Mbuhari'
+    usersname = ['@NigeriaGov', '@NGRPresident',
+                 '@NigEducation', '@fmaviationng', '@fccpcnigeria', '@NCDCgov', '@Nigeria', '@PowerMinNigeria', '@NigeriaMFA', '@NgComCommission', '@FinMinNigeria', '@firsNigeria', '@followlasg', '@FMoCDENigeria', '@LSMOH', '@OfficialAPCNg', '@followlastma', '@PwC_Nigeria', '@NGRSenate', '@SPNigeria', '@nassnigeria', '@FRSCNigeria', '@PoliceNG', '@inecnigeria', '@MBuhari', '@drobafemihamzat', '@ProfOsinbajo', '@toluogunlesi', '@jidesanwoolu', '@Laurestar', '@tundefashola',  '@femigbaja']
     c.comment(usersname = usersname)
     lrt.like_rt()
     m.tweet_mention()
