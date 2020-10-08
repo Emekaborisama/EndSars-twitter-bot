@@ -16,16 +16,17 @@ except:
 
 
 
-def comment(usersname):
-    time_line = api.user_timeline(usersname, count = 1)
-    user = api.get_user(usersname)
-    for tweet in time_line:
-        id = tweet.id
-        print(f"{tweet.user.name} said {tweet.text} with {id}" )
-        try:
-            api.update_status("#EndSARS #EndSARS #EndSARS #EndSARS #EndSARS #EndSARS #EndSARS #EndSARS #EndSARS", in_reply_to_status_id = tweet.id, auto_populate_reply_metadata=True)
-            api.update_status(usersname + '    ' + "Just tweeted")
-        #success = True
-        except:
-            pass
+def main():
+    usersname = ['@NigeriaGov', '@NGRPresident',
+                 '@NigEducation', '@fmaviationng', '@fccpcnigeria', '@NCDCgov', '@Nigeria', '@PowerMinNigeria', '@NigeriaMFA', '@NgComCommission', '@FinMinNigeria', '@firsNigeria', '@followlasg', '@FMoCDENigeria', '@LSMOH', '@OfficialAPCNg', '@followlastma', '@PwC_Nigeria', '@NGRSenate', '@SPNigeria', '@nassnigeria', '@FRSCNigeria', '@PoliceNG', '@inecnigeria', '@MBuhari', '@drobafemihamzat', '@ProfOsinbajo', '@toluogunlesi', '@jidesanwoolu', '@Laurestar', '@tundefashola',  '@femigbaja']
+    c.comment(usersname = usersname)
+    lrt.like_rt()
+    m.tweet_mention()
+    success = True
+    return success
     
+    
+    
+while True:
+    main()
+    sleep(10)
