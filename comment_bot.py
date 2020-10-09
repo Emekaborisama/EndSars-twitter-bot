@@ -23,7 +23,7 @@ def comment(usersname):
             id = tweet.id
             print(f"{tweet.user.name} said {tweet.text} with {id}" )
             try:
-                api.update_status("#|￣￣￣￣￣￣￣￣￣￣￣|
+                api.update_status("|￣￣￣￣￣￣￣￣￣￣￣|
              END SARS 
 |＿＿＿＿＿＿＿＿＿＿＿| 
                 \ (•◡•) / 
