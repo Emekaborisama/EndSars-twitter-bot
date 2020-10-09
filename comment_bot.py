@@ -23,7 +23,13 @@ def comment(usersname):
             id = tweet.id
             print(f"{tweet.user.name} said {tweet.text} with {id}" )
             try:
-                api.update_status("#EndSARS #EndSARS #EndSARS #EndSARS #EndSARS #EndSARS #EndSARS #EndSARS #EndSARS", in_reply_to_status_id = tweet.id, auto_populate_reply_metadata=True)
+                api.update_status("#|￣￣￣￣￣￣￣￣￣￣￣|
+             END SARS 
+|＿＿＿＿＿＿＿＿＿＿＿| 
+                \ (•◡•) / 
+                  \      / 
+                    ---
+                    |   |", in_reply_to_status_id = tweet.id, auto_populate_reply_metadata=True)
                 api.update_status(usersname + '    ' + "Just tweeted")
                 #print(users)
                 #success = True
