@@ -21,7 +21,7 @@ def tweet_mention():
     tweets= api.mentions_timeline(tweet_mode = 'extended')
     try:
         for tweet in tweets:
-            api.update_status('#SARSMUSTEND #Sarsmustend #5for5 #SarsMustEnd', in_reply_to_status_id = tweet.id, auto_populate_reply_metadata = True)
+            api.update_status('##EndSWAT #5for5 #SarsMustEnd', in_reply_to_status_id = tweet.id, auto_populate_reply_metadata = True)
             print('replied the mentioned')
         #success = True
     except:
