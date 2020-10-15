@@ -16,7 +16,7 @@ except:
 
 def comment(usersname):
     for user in usersname:
-        time_line = api.user_timeline(user, count = 3)
+        time_line = api.user_timeline(user, count = 1)
         users = api.get_user(user)
         for tweet in time_line:
             id = tweet.id
