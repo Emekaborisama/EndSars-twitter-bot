@@ -5,8 +5,8 @@ import os
 logger = logging.getLogger()
 
 def create_api():
-    auth = tp.OAuthHandler('3rFqD3xxtIPoUvdEd0PNA2fly', 's2FNdygjZRCrlECZBlmk3q3KjSgJMTjvUi1dD4SXcCdt4FA6Iw')
-    auth.set_access_token('1305611268447928320-ioLLdFnDhCUyvHqSyw0nT5G6XXPvb4', 'q7ZYOyJgYiSth5ZY8IohGkWSSOgGJ9R9blj2dx3HAh0DZ')
+    auth = tp.OAuthHandler('pIZw54XtvVuGZM4TTJYHZrFX1', '6x1ohdPHRdFnSrUGUo6qbEup3O7eiVk5mMNpnFXcWrLQPNVhTC')
+    auth.set_access_token('1305611268447928320-MA3D0D1Ay41wjefcRmrxKr08Ub12VM', 's0EAbYg9gKIM8qoq0XjDpCCA3mToGPvQxkntPv6AWbtVI')
     api = tp.API(auth, wait_on_rate_limit = True, wait_on_rate_limit_notify = True)
     try:
         api.verify_credentials()
