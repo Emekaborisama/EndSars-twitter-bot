@@ -18,7 +18,7 @@ except:
 
 
 def like_rt():
-    for tweet in tp.Cursor(api.search, q = '#EndSars').items(10):
+    for tweet in tp.Cursor(api.search, q = '#EndSars').items(2):
         print('Tweet by: @' + tweet.user.screen_name)
     try: 
         tweet.retweet()
