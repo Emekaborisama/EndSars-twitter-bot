@@ -1,1 +1,0 @@
-worker: python endsarsbot.py
